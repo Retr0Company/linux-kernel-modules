@@ -1,0 +1,1 @@
+cmd_/mnt/git/linux-kernel-modules/keylog/rootkit.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T /usr/src/linux-headers-5.5.0-kali2-common/scripts/module-common.lds -o /mnt/git/linux-kernel-modules/keylog/rootkit.ko /mnt/git/linux-kernel-modules/keylog/rootkit.o /mnt/git/linux-kernel-modules/keylog/rootkit.mod.o;  true
